@@ -12,7 +12,7 @@ QΛQT of positive definite matrix. The Λ is a diagonal matrix containing the ei
 (QT Q = I) because eigenvectors of a symmetric matrix can be chosen as orthonormal.
 Rectangular matrices have no concept of eigenvalues and eigenvectors, but we can modify the equation in a way to
 make Q on the left and QT on the right to be any two orthogonal matrices U and V T , not necessarily transposes
-of each other. Then, every matrix(even rectangular) can be defined as $A = U\Sigma V^T$
+of each other. Then, every matrix(even rectangular) can be defined as <img src="https://latex.codecogs.com/svg.image?A&space;=&space;U\Sigma&space;V^T" title="A = U\Sigma V^T" />
 
 The diagonal matrix Σ has eigen values from AT A. The
 diagonal elements of Σ will be σ1 , σ2 , ....., σr . They are the singular values of A. First r places in the main diagonal of Σ are filled by these σi values, when rank of A equals r, and the rest of the entries are zero.
