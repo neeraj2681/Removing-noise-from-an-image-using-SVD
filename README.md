@@ -8,8 +8,8 @@ A matrix can be decomposed in various forms for eg., LU decomposition, QR decomp
 A new form of matrix decomposition called Singular Value Decomposition(U ΣV T ) can be defined from LU
 decomposition and QR decomposition. SVD is similar to eigenvalue-eigenvector factorization of
 
-QΛQT of positive definite matrix. The Λ is a diagonal matrix containing the eigenvalues. The matrix Q is orthogonal
-(QT Q = I) because eigenvectors of a symmetric matrix can be chosen as orthonormal.
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;Q^TQ" title="Q^TQ" /> of positive definite matrix. The Λ is a diagonal matrix containing the eigenvalues. The matrix Q is orthogonal
+(<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;Q^TQ&space;=&space;I" title="Q^TQ = I" />) because eigenvectors of a symmetric matrix can be chosen as orthonormal.
 Rectangular matrices have no concept of eigenvalues and eigenvectors, but we can modify the equation in a way to
 make Q on the left and QT on the right to be any two orthogonal matrices U and V T , not necessarily transposes
 of each other. Then, every matrix(even rectangular) can be defined as <img src="https://latex.codecogs.com/svg.image?A&space;=&space;U\Sigma&space;V^T" title="A = U\Sigma V^T" />
